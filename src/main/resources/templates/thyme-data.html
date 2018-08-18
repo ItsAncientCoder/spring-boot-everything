@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>ThymeLeaf Page</title>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" >
+</head>
+<body>
+<div class="container">
+<br>
+	<b>USER NAME:</b>
+	<p th:text="${thyme.name}"></p>
+	<b>EMAIL ID:</b>
+	<p th:text="${thyme.email}"></p>
+	<b>Phone:</b>
+	<p th:text="${thyme.phone}"></p>
+	</div>
+</body>
+</html>
